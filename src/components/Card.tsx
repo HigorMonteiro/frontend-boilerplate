@@ -35,7 +35,7 @@ const Price = styled.div`
   font-size: 1.25rem;
 `;
 
-const Card: React.FC<CardProps> = ({ title, description, price, children }) => {
+export default function Card({ title, description, price, children }: CardProps){
   return (
     <StyledCard>
       <Title>{title}</Title>
@@ -46,4 +46,3 @@ const Card: React.FC<CardProps> = ({ title, description, price, children }) => {
   );
 };
 
-export default Card;
