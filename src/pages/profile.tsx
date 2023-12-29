@@ -1,22 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-`;
-
-const Title = styled.h2`
-  text-align: center;
-`;
+'use client'
+import { PageContainer, Title, Description } from '../app/StyledHome';
 
 const Profile = () => {
   return (
-    <Container>
-      <Title>Profile page</Title>
-    </Container>
+    <PageContainer>
+      <Title>Profile</Title>
+      <Description>
+        This is the Profile page of the app, styled with styled-components.
+      </Description>
+    </PageContainer>
   );
 };
 
