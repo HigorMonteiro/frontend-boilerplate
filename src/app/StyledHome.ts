@@ -12,11 +12,13 @@ export const PageContainer = styled.div`
 `;
 
 export const Title = styled.h1`
+  font-family: ${theme.typography.fontFamily};
   font-size: ${theme.typography.fontSize.large};
   text-align: center;
   color: ${theme.colors.text};
 `;
 export const Description = styled.p`
+  font-family: ${theme.typography.fontFamily};
   color: ${theme.colors.textSecondary};
   font-size: ${theme.typography.fontSize.small};
   text-align: center;
